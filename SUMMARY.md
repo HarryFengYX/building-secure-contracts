@@ -12,8 +12,8 @@
   - [EVM Opcode Reference](./learn_evm/evm_opcodes.md)
   - [Transaction Tracing](./learn_evm/tracing.md)
   - [Arithmetic Checks](./learn_evm/arithmetic-checks.md)
-  - [Yellow Paper Guidance](./learn_evm/yellow-paper.md):
-    - [Forks <> EIPs](./learn_evm/eips_forks.md)
+  - [Yellow Paper Guidance](./learn_evm/yellow-paper.md)
+  - [Forks <> EIPs](./learn_evm/eips_forks.md)
     - [Forks <> CIPs](./learn_evm/cips_forks.md)
     - [Upgrades <> TIPs](./learn_evm/tips_upgrades.md)
     - [Forks <> BEPs](./learn_evm/beps_forks.md)
