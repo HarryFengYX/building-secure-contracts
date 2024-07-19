@@ -3,7 +3,7 @@
 We will use three distinctive testing and program analysis techniques:
 
 - **Static analysis with [Slither](./slither).** All the paths of the program are approximated and analyzed simultaneously through different program presentations (e.g., control-flow-graph).
-- **Fuzzing with [Echidna](./echidna).** The code is executed with a pseudo-random generation of transactions. The fuzzer attempts to find a sequence of transactions that violates a given property.
+- **Fuzzing with [Echidna](./echidna) and [Medusa](./medusa).** The code is executed with a pseudo-random generation of transactions. The fuzzer attempts to find a sequence of transactions that violates a given property.
 - **Symbolic execution with [Manticore](./manticore).** This formal verification technique translates each execution path into a mathematical formula on which constraints can be checked.
 
 Each technique has its advantages and pitfalls, making them useful in [specific cases](#determining-security-properties):
